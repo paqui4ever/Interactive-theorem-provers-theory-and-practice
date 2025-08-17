@@ -23,9 +23,6 @@ Defined.
 
 (* Every contractible type is a proposition. *)
 
-Lemma paths_for_subtypes {C : UU} {x y : C} (p : x = y) : idpath x = 
-
-
 Theorem contr_is_prop {C : UU} (h : iscontr C) : isaprop C.
 Proof.
   unfold isaprop.
